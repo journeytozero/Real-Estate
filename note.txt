@@ -1,0 +1,27 @@
+project-root/
+│
+├── admin/                  # Admin panel files (dashboard, manage users, properties)
+│
+├── agent/                  # Agent panel files (dashboard, manage own listings)
+│
+├── assets/                 # CSS, JS, images, fonts, and other static files
+│
+├── config/                 # Configuration files (db.php, constants.php)
+│
+├── includes/               # Reusable partials for the frontend
+│   ├── footer.php          # Footer section
+│   ├── header.php          # Header section
+│   ├── login_modal.php     # Login modal HTML
+│   ├── navbar.php          # Navbar HTML
+│   └── register_modal.php  # Register modal HTML
+│
+├── all_properties.php      # Page showing all properties
+├── categories.php          # Page showing categories or property types
+├── fetch_properties.php    # Script to fetch properties via AJAX
+├── hero.php                # Homepage hero section
+├── login_process.php       # Login handler (POST request)
+├── property_detail.php     # Property detail page
+├── property_list.php       # List of properties by filter or category
+├── register_process.php    # Registration handler (POST request)
+│
+└── desktop.ini             # System file (can be ignored)

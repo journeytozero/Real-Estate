@@ -1,0 +1,156 @@
+.navbar-nav {
+  white-space: nowrap; /* Prevents breaking into two lines */
+}
+
+.nav-link {
+  padding: 0 12px; /* Adjust spacing */
+  font-weight: 500; /* Slightly bold */
+}
+
+.contact-section {
+  padding: 60px 0;
+}
+
+.contact-info .info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.contact-info .info-item .icon {
+  font-size: 24px;
+  color: #0d6efd;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: rgba(13, 110, 253, 0.1);
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.contact-info .info-item h5 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.contact-info .info-item p {
+  font-size: 16px;
+  margin-bottom: 0;
+  color: #6c757d;
+}
+
+.contact-form {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.map-container {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+/* --- Royal Color Theme Variables --- */
+:root {
+  --royal-purple-dark: #2c003e;
+  --royal-purple-light: #4a148c;
+  --accent-gold: #D4AF37;
+  --text-light: #f8f9fa;
+  --text-muted-light: #adb5bd;
+}
+
+/* ===================================
+   Royal Real Estate Footer
+====================================== */
+.footer-royal {
+  /* Rich purple gradient background */
+  background: linear-gradient(135deg, var(--royal-purple-dark), var(--royal-purple-light));
+  color: var(--text-light);
+  padding-top: 80px;
+}
+
+/* Gold accent for headings and logo */
+.footer-royal .logo-text,
+.footer-royal h5 {
+  color: var(--accent-gold);
+  font-weight: 600;
+}
+
+.footer-royal .logo-text {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Styling for general text and links */
+.footer-royal p,
+.footer-royal li,
+.footer-royal a {
+  color: var(--text-muted-light);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer-royal ul li a:hover {
+  color: var(--accent-gold); /* Links turn gold on hover */
+  padding-left: 5px;
+}
+
+/* Gold accent for contact info icons */
+.footer-royal .contact-item .icon {
+  color: var(--accent-gold);
+  font-size: 1.1rem;
+  width: 25px;
+}
+
+/* Social Media Icons with royal theme */
+.footer-royal .social-icons a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: var(--text-light);
+  transition: all 0.3s ease;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 1rem;
+}
+
+.footer-royal .social-icons a:hover {
+  background-color: var(--accent-gold);
+  color: var(--royal-purple-dark); /* Icon color changes for contrast */
+  transform: translateY(-3px);
+}
+
+/* Newsletter button with gold theme */
+.footer-royal .btn-gold {
+  background-color: var(--accent-gold);
+  border-color: var(--accent-gold);
+  color: var(--royal-purple-dark);
+  font-weight: 600;
+}
+.footer-royal .btn-gold:hover {
+  background-color: #c8a02a; /* Slightly darker gold on hover */
+  border-color: #c8a02a;
+}
+.footer-royal .newsletter-form .form-control {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+.footer-royal .newsletter-form .form-control:focus {
+  background-color: transparent;
+  border-color: var(--accent-gold);
+  box-shadow: none;
+}
+
+
+/* Bottom Bar */
+.footer-royal .footer-bottom {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(212, 175, 55, 0.3); /* Faint gold border */
+  padding: 20px 0;
+  margin-top: 60px;
+}

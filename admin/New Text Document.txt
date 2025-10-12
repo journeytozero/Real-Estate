@@ -1,0 +1,12 @@
+realestate-admin/
+│── index.php
+│── partials
+    --header.php
+│   ── sidebar.php
+│   ── footer.php
+│   ── db.php
+│── pages/
+│    ├── dashboard.php
+│    ├── properties.php
+│    ├── property_form.php
+│    └── property_delete.php
