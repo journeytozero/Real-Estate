@@ -11,9 +11,7 @@ class Auth
         }
     }
 
-    /**
-     * REGISTER USER
-     */
+    /* REGISTER USER */
     public function register($data, $files = [])
     {
         $name     = trim($data['name'] ?? '');
@@ -101,9 +99,7 @@ class Auth
         }
     }
 
-    /**
-     * LOGIN USER
-     */
+    /* LOGIN USER */
     public function login($email, $password)
     {
         $email = strtolower(trim($email)); // normalize email
